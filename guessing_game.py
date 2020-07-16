@@ -29,5 +29,3 @@ while game == True:
 		print('\nYour number was too high. Please guess again.')
 		num_list = [e for e in num_list if e < user_choice]
 		print(f'\n{num_list}')
-
-		#item_list = [e for e in item_list if e not in ('item', 5)]
